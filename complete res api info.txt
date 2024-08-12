@@ -1,0 +1,76 @@
+
+End point hamara same raha gain just methods chnage hoon gain apka iss ka matlab respurce same hona chai bus
+
+Resful api create krna ka liya multiple dependeny use hona wali hain
+
+1. express
+2. Mongoose
+3.validator
+
+
+to create new director 
+mkdir name
+
+to create new file
+
+type nul > app.js
+
+
+First Step Application ko run krna hota ha
+
+1. express ka through
+express ka aik constant create krna prha ta ha taka iss ka real properties use krsko
+
+For creation data  we use post request
+
+client req kara ga or server hama resposne kara ga
+
+
+second step iss ko mongo db ka saat connect krna  ha
+db folder ma conn ki file bana kr 
+connection successful how ka nae muja iss page ko apni express application ma require krna hoga 
+
+iss ka badd schema create krna 
+phir models crea krna ha or model ko import krlana ha app.js ma
+
+
+
+
+
+phir post man pr jana ha wahana aik naya collection create krna ha
+or us ka baad hamana create student ki aik request create krni ha usma post request krnai ha 
+
+create krwana ka liya body ma ana raw select krna ha 
+side pr text bdalna ha  json ko select kr ka
+
+ab data schema ka mutabiq object ma post krka postman ma
+phir haamna req ka through wo data jo post kiya ha postman sa get krna ha
+
+ya req.body sa hoga post ka route ma hi
+
+acha haam apni app.js file ma express.json add karain kyo data json string ma hama usa json object ma convert krna hota ha 
+
+after that data ko haman mongo db ma store krn aha models ka through get kr ka 
+
+acha agr success hojata ha to muja 201 use krna post request ma
+agr url ma koi erro ha to 400 status code use krna ha
+
+
+Now handle get request in hindi:
+
+
+we will read the data of registered student
+
+acha update ka liy patch request use hoti means single field ki value agr update krni ho
+
+iss ka liya ma postman ma body ma phir row ma joon ga
+yaahn pr new use karain gain jsi sa jasa hi update karain gain direct hi show ho jaye ga 
+
+now delete request by id
+
+
+what is Express router
+
+
+
+

@@ -1,0 +1,9 @@
+controller hota ha wo model ko manipulate krta ha 
+or jo model hota ha wo view ko update krta ha
+
+controllers ma different funcions hota hain jin ko haam apna routes ka saat attach karain gain 
+
+
+Controllers are responsible for handling incoming requests and returning responses to the client.
+user route ko call krta ha route controller ko call krta ha controller models pr manipulation krta ha 
+model sa data read kr ka haam views ma dalta hain
